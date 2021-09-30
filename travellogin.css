@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.container .float-left{
+    width: 52%;
+    height: 100vh;
+    float: left;
+
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,254,0.2)), url(../img/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container .float-left .content h3{
+    color: #ffa200;
+    font-size: 70px;
+    font-family: 'Ephesis', cursive;
+    padding-left: 40px;
+}
+
+.container .float-left .content .sign-up{
+    color: #ffa200;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+}
+
+.container .float-left .content .paragraph{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 40px;
+    margin: 0 0 20px 0;
+}
+
+.container .float-left .content button{
+    color: black;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 700;
+    border: none;
+    background-color: #ffa200;
+    border: 2px solid #ffa200;
+    padding: 15px 5px;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+
+.container .float-left .content button:hover{
+    /* transform: scale(0.9); */
+    /* transform: skew(-5deg); */
+    color: white;
+    transform: rotate(3deg);
+    background: transparent;
+    cursor: pointer;
+}
+
+.container .float-left .content .last-sentence{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+.container .float-right{
+    width: 46%;
+    height: 100vh;
+    float: right;
+}
+
+.container .float-right img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.container .float-right .signin{
+    color: #ffa200;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.container .float-right .box{
+    width: 400px;
+    height: 40px;
+    border: none;
+    background:transparent;
+    border-bottom: 2px solid #aaaaaa;
+    margin-left: 20px;
+}
+
+.box::placeholder{
+    color: rgb(189, 189, 189);
+    font-size: 20px;
+}
+
+.container .float-right .box:focus{
+    /* border: none; */
+    outline: none;
+}
+
+.log{
+    
+    margin-left: 20px;
+}
+
+.log,label{
+    color: grey;
+    font-size: 16px;
+}
+
+.container .float-right .button{
+    width: 400px;
+    height: 40px;
+    background: #cfcece;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    margin-left: 20px;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.container .float-right .button:hover{
+    cursor: pointer;
+
+}
+
+.container .float-right .button:active{
+    transform: scale(0.98);
+}
+
+.container .float-right .final{
+    color: grey;
+    
+    margin-left: 20px;
+}
+
+.container .float-right .final a{
+    color: grey;
+}
