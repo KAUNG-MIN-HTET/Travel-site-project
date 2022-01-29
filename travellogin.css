@@ -21,7 +21,7 @@ body{
     height: 100vh;
     float: left;
 
-    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,254,0.2)), url(../img/login.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,254,0.2)), url(./img/3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,7 +42,7 @@ body{
 }
 
 .container .float-left .content .paragraph{
-    color: #fff;
+    color: #222;
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
     padding: 0 40px;
@@ -71,7 +71,7 @@ body{
 }
 
 .container .float-left .content .last-sentence{
-    color: #fff;
+    color: #222;
     font-size: 18px;
     padding-left: 40px;
 }
